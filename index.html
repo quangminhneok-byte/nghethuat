@@ -1,0 +1,107 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="format-detection" content="telephone=no"/>
+    <meta property="og:title" content="nghethuat" />
+    <meta name="twitter:title" content="nghethuat" />
+    <meta name="twitter:image:src" content="docs/nghethuat.pdf_1_thumb.jpg" />
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:player" content="">
+    <meta name="twitter:player:width" content="400">
+    <meta name="twitter:player:height" content="300">
+
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="docs/nghethuat.pdf_1_thumb.jpg" />    
+    <meta property="og:image:width" content="168" /> 
+    <meta property="og:image:height" content="119" /> 
+    
+
+    <style type="text/css" media="screen">
+        html, body	{ height:100%; }
+        body { margin:0; padding:0; overflow:auto; }
+        #flashContent { display:none; }
+
+        
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/flowpaper.css" />
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.extensions.min.js"></script>
+    <!--[if gte IE 10 | !IE ]><!-->
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="js/flowpaper.js"></script>
+    <script type="text/javascript" src="js/flowpaper_handlers.js"></script>
+    <title>nghethuat</title>
+</head>
+<body>
+<div id="documentViewer" class="flowpaper_viewer" style="position:absolute;;width:100%;height:100%;background-color:#222222;;"></div>
+<script type="text/javascript">
+    // viewer start
+    $('#documentViewer').FlowPaperViewer(
+            { config : {
+                "PDFFile"                 : "docs/nghethuat.pdf?reload=1765091473290",
+                "IMGFiles"                : "docs/nghethuat.pdf_{page}.jpg?reload=1765091473290",
+                "HighResIMGFiles"         : "",
+                "JSONFile"                : "docs/nghethuat.pdf_{page}.bin?reload=1765091473290",
+                "JSONDataType"            : "lz",
+                "ThumbIMGFiles"           : "docs/nghethuat.pdf_{page}_thumb.jpg?reload=1765091473290",
+                "SWFFile"                 : "",
+                "FontsToLoad"             : ["g_font_e0730faa1fc956f0","g_font_b5d75a4f15318935","g_font_020d5136c53bae23","g_font_faafa43c34e3d3a6","g_font_543f4f75846e3307","g_font_a73a204c1f38c296","g_font_086a0c982d2e3a1e","g_font_6205cc03480e31e5","g_font_c0c0151579ad97f3","g_font_f78bfb78d5924761","g_font_d30b598d5c80b82a","g_font_702f46915e9083c0","g_font_99908b77084fa4d8"],
+
+                "Scale"                   : 0.1,
+                "ZoomTransition"          : "easeOut",
+                "ZoomTime"                : 0.4,
+                "ZoomInterval"            : 0.001,
+                "FitPageOnLoad"           : true,
+                "FitWidthOnLoad"          : false,
+                "AutoAdjustPrintSize"     : true,
+                "PrintPaperAsBitmap"      : false,
+                "AutoDetectLinks"         : true,
+                "ImprovedAccessibility"   : false,
+                "FullScreenAsMaxWindow"   : false,
+                "EnableCornerDragging"    : true,
+                "ProgressiveLoading"      : false,
+                "MinZoomSize"             : 0.1,
+                "MaxZoomSize"             : 10,
+                "SearchMatchAll"          : true,
+                "InitViewMode"            : "Flip-SinglePage",
+                "RTLMode"                 : false,
+                "RenderingOrder"          : "html,html",
+                "StartAtPage"             : 1,
+                "EnableWebGL"             : false,
+                "PreviewMode"             : "",
+                "PublicationTitle"        : "",
+                "AnimatedLoader"          : false,
+                "LinkTarget"              : "New window",
+                "RestrictToDomains"       : ["AllowedDomains:*"],
+                "MixedMode"               : true,
+
+                "UIConfig"                : "UI_Zine.xml?reload=1765091473290",
+                "BrandingLogo"            : "",
+                "BrandingUrl"             : "",
+
+                "WMode"                   : "transparent",
+
+                "key"                     : "#V2ZwfmBFXVpeThhxAUlBXlVZZw==",
+                "TrackingNumber"          : "",
+                "localeDirectory"         : "locale/",
+                "localeChain"             : "en_US"
+            }}
+    );
+    // viewer end
+
+    var url = window.location.href.toString();
+    if(location.length==0){
+        url = document.URL.toString();
+    }
+    if(url.indexOf("file:")>=0){
+        jQuery('#documentViewer').html("<div style='position:relative;background-color:#ffffff;width:420px;font-family:Verdana;font-size:10pt;left:22%;top:20%;padding: 10px 10px 10px 10px;border-style:solid;border-width:5px;'><img src='data:image/gif;base64,R0lGODlhEAAPAMQPAPS+GvXAIfrjnP/89vnZePrhlvS9F//+/PrfjfS/HfrgkPS+GP/9+YJiACAYAP////O3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAA8ALAAAAAAQAA8AAAVQ4COOD0GQKElA0JmSg7EsxvCOCMsi9xPrkNpNwXI0WIoXA1A8QgCMVEFn1BVQS6rzGR1NtcCriJEAVnWJrgDI1gkehwD7rAsc1u28QJ5vB0IAOw%3D%3D'>&nbsp;<b>You are trying to use FlowPaper from a local directory.</b><br/><br/> Use the 'View in browser' button in the Desktop Publisher publish & preview dialog window to preview your publication or copy the contents of your publication directory to a web server and access this html file through a http:// url.</div>");
+    }
+</script>
+</body>
+</html>
